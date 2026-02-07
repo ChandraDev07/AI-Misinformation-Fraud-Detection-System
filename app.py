@@ -20,6 +20,7 @@ menu = st.sidebar.selectbox("Choose Module", [
 
 # ================= FAKE NEWS =================
 if menu == "Fake News":
+    st.title("📰 Fake News Analyser Assistant")
     model = joblib.load("fake_news_module/fake_news_model.pkl")
     vectorizer = joblib.load("fake_news_module/vectorizer.pkl")
 
@@ -77,6 +78,7 @@ elif menu == "Claim Verification":
 
 # ================= FAKE PROFILE =================
 elif menu == "Fake Profile":
+    st.title("🙎 Fake Profile Assistant")
     model = joblib.load("profile_module/profile_model.pkl")
 
     followers = st.number_input("Followers")
