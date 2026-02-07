@@ -4,3 +4,6 @@ numpy
 scikit-learn
 joblib
 textstat
+newspaper3k
+lxml
+lxml_html_clean
