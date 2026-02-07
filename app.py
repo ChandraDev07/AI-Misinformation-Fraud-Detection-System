@@ -110,8 +110,9 @@ elif menu == "Awareness Mode":
     - Random username  
     - No real photos  
 
-    ### 🤖 AI Text Signs
-    - Very perfect grammar  
-    - Repetitive sentence structure  
-    - Overly neutral tone  
+    ### 🤖 Fake Claim Signs
+    In today’s digital world, many claims spread quickly through:
+    - No Reliable Source
+    - Emotional or Sensational Language
+    - Urgency to Share
     """)
